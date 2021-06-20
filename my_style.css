@@ -29,7 +29,7 @@ table, th, td {
 .newsp {
     margin: 15px;
     text-indent: 4em;
-    font-size: 30px
+    font-size: 20px
     
 }
 
@@ -130,6 +130,15 @@ table, th, td {
     height:275px;
 }
 
+.obamapic {
+    
+}
+
+.fdrpic {
+    
+}
+
+
 
 .newsftter {
     text-align:center;
@@ -153,10 +162,8 @@ table, th, td {
 .button {
     display:inline-block;
     margin:0 auto;
+    left: 2px;
     background-color: lightblue;
-    width: 90px;
-    position: relative;
-    right: -210px
 }
 
 
@@ -239,10 +246,17 @@ a {
   background: $red;
   color: #fff;
   border: 0;
+  cursor: pointer;
+  &:focus,
+  &:hover {background: darken($red, 7%);}
+  &:active {background: #c10000;}
 }
 .link {
   font-weight: bold;
   color: $red;
+  &:focus,
+  &:hover {color: darken($red, 10%);}
+  &:active {color: lighten($red, 5%);}
 }
 
 nav h1 {
@@ -390,6 +404,18 @@ hr {
  
 }
 
+
+.logo-container:not(:first-child) {margin-left: 7.5%;}
+.logo-container:first-child {margin-top: .2em;}
+.logo-container:nth-of-type(2) img {margin-top: 1.2em}
+.logo-container:nth-of-type(3) img {margin-top: 1.8em;}
+.logo-container:nth-of-type(4) img {margin-top: 2.35em;}
+.logo-container:nth-of-type(5) img {margin-top: .35em;}
+.logo-container:last-of-type img {margin-top: .65em;}
+.sec-partners img {
+  float: left;
+  width: 100%;
+}
 
 footer {
   padding: 2em 0;
