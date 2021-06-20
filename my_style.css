@@ -153,8 +153,10 @@ table, th, td {
 .button {
     display:inline-block;
     margin:0 auto;
-    left: 2px;
     background-color: lightblue;
+    width: 90px;
+    position: relative;
+    right: -210px
 }
 
 
