@@ -25,6 +25,7 @@ table, th, td {
 .moveup {
     position: relative;
     top:-53px;
+    font-size: 30px
 }
 .newsp {
     margin: 15px;
@@ -79,6 +80,7 @@ table, th, td {
     position: relative;
     top:-53px;
     font-family:'Roboto',sans-serif;
+    font-size: 20px
     
 }
 
@@ -372,6 +374,8 @@ hr {
   position: relative;
   left: 2%;
 }
+
+
 
 .sec-standards {width: 40%;}
 .sec-standards > h1 {
